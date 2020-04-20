@@ -135,8 +135,8 @@ SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.user.user_details',
 )
 
-SOCIAL_AUTH_FACEBOOK_KEY = '510878652937658'        # App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = '7f39363dbe0ea1a328251da87b29a9c6' # App Secret
+SOCIAL_AUTH_FACEBOOK_KEY = 'App ID'        # App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = 'App Secret key' # App Secret
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email', 'user_link'] # add this
 SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {       # add this
   'fields': 'id, name, email, picture.type(large), link'
